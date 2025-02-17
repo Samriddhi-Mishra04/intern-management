@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1018b5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0d1499;
+}
+
+/* Spacing for the Add Intern button */
+.spacing {
+    margin-bottom: 40px;
+}
+
+/* Toggle button for sorting options */
+.toggle-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #f1c40f;
+    color: white;
+    font-size: 16px;
+}
+
+.toggle-button:hover {
+    background-color: #f39c12;
+}
+
+/* Styles for the Sort by options */
+#sort-options {
+    margin-top: 20px;
+}
+
+#sort-options button {
+    margin-top: 10px;
+    background-color: #27ae60;
+}
+
+#sort-options button:hover {
+    background-color: #2ecc71;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #1018b5;
+    color: white;
+    cursor: pointer;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e6ebff;
+}
+
+/* Form Styles for Add Intern Page */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form select {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+form button {
+    background-color: #2ecc71;
+    padding: 10px 20px;
+}
+
+form button:hover {
+    background-color: #27ae60;
+}
